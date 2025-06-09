@@ -1,7 +1,7 @@
-numpy>=1.26.0
-pillow==9.4.0
-streamlit==1.23.1
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.12.2
-scikit-learn==1.4.2
+pillow
+seaborn
+matplotlib
+scikit-learn
+pandas
+numpy
+streamlit
