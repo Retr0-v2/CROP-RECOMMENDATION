@@ -18,10 +18,10 @@ from sklearn.preprocessing import LabelEncoder
 from PIL import Image
 
 # Display Images
-img = Image.open("C:\\Users\\bhagy\\Desktop\\Agriconnect\\CROP-RECOMMENDATION\\crop.png")
+img = Image.open("crop.png")
 st.image(img)
 
-df = pd.read_csv('C:\\Users\\bhagy\\Desktop\\Agriconnect\\CROP-RECOMMENDATION\\Crop_recommendation.csv')
+df = pd.read_csv('Crop_recommendation.csv')
 
 X = df[['N', 'P','K','temperature', 'humidity', 'ph', 'rainfall']]
 y = df['label']
