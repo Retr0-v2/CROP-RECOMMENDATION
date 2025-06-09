@@ -73,7 +73,7 @@ def main():
     # # Setting the title of the web app
     st.markdown("<h1 style='text-align: center;'>SMART CROP RECOMMENDATIONS", unsafe_allow_html=True)
     
-    st.sidebar.title("AgriConnect")
+    st.sidebar.title("AgriSens")
     # # Input fields for the user to enter the environmental factors
     st.sidebar.header("Enter Crop Details")
     nitrogen = st.sidebar.number_input("Nitrogen", min_value=0.0, max_value=140.0, value=0.0, step=0.1)
@@ -96,5 +96,6 @@ def main():
 
 
 ## Running the main function
-if _name_ == '_main_':
+if __name__ == '__main__':
     main()
+
